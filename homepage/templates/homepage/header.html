@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Navigator</title>
+  		<meta charset="utf-8" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      {% load staticfiles %}
+      <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" type ='text/css'/>
+  		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body>
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
+</body>
+
+</html>
